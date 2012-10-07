@@ -164,15 +164,6 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-    
-	CGFloat x = currentHue * kMatrixWidth;
-	//CGFloat y = currentSaturation * kMatrixHeight;
-	
-	//crossHairs.center = CGPointMake(x,y);
-	
-	//x = currentBrightness * gradientView.frame.size.width;
-	
-	//brightnessBar.center = CGPointMake(x,kBrightBarYCenter);
 	
 	[gradientView setupGradient];
 	[gradientView setNeedsDisplay];

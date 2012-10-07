@@ -26,6 +26,9 @@
 		E778FCA61210B9D400646460 /* UIColor-HSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E778FCA41210B9D400646460 /* UIColor-HSVAdditions.m */; };
 		E778FD111210C2BB00646460 /* StandinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */; };
 		E778FD121210C2BB00646460 /* StandinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E778FD101210C2BB00646460 /* StandinViewController.xib */; };
+		E7B58A4A1622318F00967966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B58A491622318F00967966 /* Default-568h@2x.png */; };
+		E7B58A4D162232B900967966 /* bar_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B58A4B162232B900967966 /* bar_select@2x.png */; };
+		E7B58A4E162232B900967966 /* crosshair@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B58A4C162232B900967966 /* crosshair@2x.png */; };
 		E7C63BB012399E6900297964 /* ColorSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C63BAF12399E6900297964 /* ColorSwatchView.m */; };
 		E7C63C0D1239A65200297964 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C63C0C1239A65200297964 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +65,9 @@
 		E778FD0F1210C2BB00646460 /* StandinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandinViewController.m; path = ../StandinViewController.m; sourceTree = "<group>"; };
 		E778FD101210C2BB00646460 /* StandinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandinViewController.xib; sourceTree = "<group>"; };
 		E7B1005A123158B700340C1C /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		E7B58A491622318F00967966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E7B58A4B162232B900967966 /* bar_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar_select@2x.png"; path = "UI Parts/bar_select@2x.png"; sourceTree = "<group>"; };
+		E7B58A4C162232B900967966 /* crosshair@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "crosshair@2x.png"; path = "UI Parts/crosshair@2x.png"; sourceTree = "<group>"; };
 		E7C63BAE12399E6900297964 /* ColorSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSwatchView.h; sourceTree = "<group>"; };
 		E7C63BAF12399E6900297964 /* ColorSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSwatchView.m; sourceTree = "<group>"; };
 		E7C63C0C1239A65200297964 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -114,6 +120,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E7B58A491622318F00967966 /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -135,6 +142,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E7B58A4B162232B900967966 /* bar_select@2x.png */,
+				E7B58A4C162232B900967966 /* crosshair@2x.png */,
 				2F36D5490F83A74800D10271 /* Default.png */,
 				2F36D54A0F83A74800D10271 /* Icon.png */,
 				2F3CD0550F77F74600DC189F /* bar_select.png */,
@@ -228,6 +237,9 @@
 				2F36D54B0F83A74800D10271 /* Default.png in Resources */,
 				2F36D54C0F83A74800D10271 /* Icon.png in Resources */,
 				E778FD121210C2BB00646460 /* StandinViewController.xib in Resources */,
+				E7B58A4A1622318F00967966 /* Default-568h@2x.png in Resources */,
+				E7B58A4D162232B900967966 /* bar_select@2x.png in Resources */,
+				E7B58A4E162232B900967966 /* crosshair@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
