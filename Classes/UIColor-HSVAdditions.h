@@ -36,16 +36,23 @@
 //  get it here:
 //  http://github.com/ars/uicolor-utilities
 
-#define MIN3(x,y,z)  ((y) <= (z) ? \
-((x) <= (y) ? (x) : (y)) \
+#define MIN3(x,y,z)  ({\
+__typeof__ (x) _x = (x);\
+__typeof__ (y) _y = (y);\
+__typeof__ (z) _z = (z);\
+(_y) <= (_z) ? \
+((_x) <= (_y) ? (_x) : (_y)) \
 : \
-((x) <= (z) ? (x) : (z)))
+((_x) <= (_z) ? (_x) : (_z)); })
 
-#define MAX3(x,y,z)  ((y) >= (z) ? \
-((x) >= (y) ? (x) : (y)) \
+#define MAX3(x,y,z)  ({\
+__typeof__ (x) _x = (x);\
+__typeof__ (y) _y = (y);\
+__typeof__ (z) _z = (z);\
+(_y) >= (_z) ? \
+((_x) >= (_y) ? (_x) : (_y)) \
 : \
-((x) >= (z) ? (x) : (z)))
-
+((_x) >= (_z) ? (_x) : (_z)); })
 
 struct rgb_color {
     CGFloat r, g, b;
