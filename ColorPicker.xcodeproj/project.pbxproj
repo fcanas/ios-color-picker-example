@@ -35,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerAppDelegate.h; path = ../ColorPickerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerAppDelegate.m; path = ../ColorPickerAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* HUE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,6 @@
 		E778FD0E1210C2BB00646460 /* StandinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandinViewController.h; path = ../StandinViewController.h; sourceTree = "<group>"; };
 		E778FD0F1210C2BB00646460 /* StandinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandinViewController.m; path = ../StandinViewController.m; sourceTree = "<group>"; };
 		E778FD101210C2BB00646460 /* StandinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandinViewController.xib; sourceTree = "<group>"; };
-		E7B1005A123158B700340C1C /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		E7B58A491622318F00967966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E7B58A4B162232B900967966 /* bar_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar_select@2x.png"; path = "UI Parts/bar_select@2x.png"; sourceTree = "<group>"; };
 		E7B58A4C162232B900967966 /* crosshair@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "crosshair@2x.png"; path = "UI Parts/crosshair@2x.png"; sourceTree = "<group>"; };
@@ -153,7 +152,6 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				E778FD101210C2BB00646460 /* StandinViewController.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				E7B1005A123158B700340C1C /* License */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
