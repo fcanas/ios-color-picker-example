@@ -31,7 +31,6 @@ NSString *keyForBright = @"bright";
 	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
 	if (defaultsKey==nil) {
         self.defaultsKey = @"";
-        NSLog(@"problem 0 in ColorPickerViewController.viewDidLoad");
     }
     
     NSData *colorData= [saveColors objectForKey:defaultsKey];
@@ -77,7 +76,6 @@ NSString *keyForBright = @"bright";
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
 	if (defaultsKey==nil) {
         defaultsKey = @"";
-        NSLog(@"problem 0 in ColorPickerViewController.viewDidLoad");
     }
     
     NSData *colorData= [userDefaults objectForKey:defaultsKey];
