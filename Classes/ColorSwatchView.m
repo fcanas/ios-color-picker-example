@@ -27,15 +27,6 @@ void drawRoundRect(CGContextRef context, CGRect rect) {
 
 @synthesize swatchColor;
 
-// No custom initialization code, so we'll let super handle it.
-
-//- (id)initWithFrame:(CGRect)frame {
-//    if ((self = [super initWithFrame:frame])) {
-//        // Initialization code
-//    }
-//    return self;
-//}
-
 - (void)drawRect:(CGRect)rect {
     // We only draw when we're drawing the whole swatch. Maybe there's a problem with this?
     if (rect.size.width==self.frame.size.width){

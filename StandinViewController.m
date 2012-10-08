@@ -49,7 +49,6 @@
 }
 
 - (void)colorPickerViewController:(ColorPickerViewController *)colorPicker didSelectColor:(UIColor *)color {
-    NSLog(@"Color: %d",color);
     
 #ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
     NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:color];

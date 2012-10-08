@@ -59,10 +59,6 @@ NSString *keyForBright = @"bright";
   #endif
 }
 
-//- (void) viewWillDisappear :(BOOL)animated { 
-//
-//}
-
 - (UIColor *) getSelectedColor {
 	return [(ColorPickerView *) [self view] getColorShown];
 }
@@ -90,12 +86,6 @@ NSString *keyForBright = @"bright";
     #endif
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
-    // Release anything that's not essential, such as cached data
-}
-
-
 // Housekeeping actions when a view as unloaded
 - (void)viewDidUnload {
   // Release any retained subviews of the main view.
@@ -107,8 +97,6 @@ NSString *keyForBright = @"bright";
 
   return;
 }
-
-
 
 - (void)dealloc {
     // Release claimed resources also
