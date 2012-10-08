@@ -7,69 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* ColorPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2899E5220DE3E06400AC0155 /* ColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ColorPickerViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */; };
-		2F2683160F77AFB30041B7A6 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2683150F77AFB30041B7A6 /* GradientView.m */; };
-		2F2683260F77B0960041B7A6 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */; };
 		2F36D54B0F83A74800D10271 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F36D5490F83A74800D10271 /* Default.png */; };
 		2F36D54C0F83A74800D10271 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F36D54A0F83A74800D10271 /* Icon.png */; };
-		2F3CCFEA0F77CFDB00DC189F /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CCFE80F77CFDB00DC189F /* colormap.png */; };
-		2F3CD0570F77F74600DC189F /* bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CD0550F77F74600DC189F /* bar_select.png */; };
-		2F3CD0580F77F74600DC189F /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CD0560F77F74600DC189F /* crosshair.png */; };
-		E778FCA31210B9B200646460 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = E778FCA21210B9B200646460 /* UIColor-Expanded.m */; };
-		E778FCA61210B9D400646460 /* UIColor-HSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E778FCA41210B9D400646460 /* UIColor-HSVAdditions.m */; };
+		C4EBFE48CAD0433CB9E40C07 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7E26C82AE541BD964EAC00 /* libPods.a */; };
 		E778FD111210C2BB00646460 /* StandinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */; };
 		E778FD121210C2BB00646460 /* StandinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E778FD101210C2BB00646460 /* StandinViewController.xib */; };
 		E7B58A4A1622318F00967966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B58A491622318F00967966 /* Default-568h@2x.png */; };
-		E7B58A4D162232B900967966 /* bar_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B58A4B162232B900967966 /* bar_select@2x.png */; };
-		E7B58A4E162232B900967966 /* crosshair@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B58A4C162232B900967966 /* crosshair@2x.png */; };
-		E7C63BB012399E6900297964 /* ColorSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C63BAF12399E6900297964 /* ColorSwatchView.m */; };
+		E7B58A5F162270D500967966 /* ColorPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */; };
 		E7C63C0D1239A65200297964 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C63C0C1239A65200297964 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerAppDelegate.h; path = ../ColorPickerAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerAppDelegate.m; path = ../ColorPickerAppDelegate.m; sourceTree = "<group>"; };
+		0782B16AC55C467EB0A32D07 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		1D6058910D05DD3D006BFB54 /* HUE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* ColorPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorPickerViewController.xib; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F2683140F77AFB30041B7A6 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
-		2F2683150F77AFB30041B7A6 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
-		2F2683240F77B0960041B7A6 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
-		2F2683250F77B0960041B7A6 /* ColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerView.m; sourceTree = "<group>"; };
 		2F36D5490F83A74800D10271 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2F36D54A0F83A74800D10271 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		2F3CCFE80F77CFDB00DC189F /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colormap.png; path = "UI Parts/colormap.png"; sourceTree = "<group>"; };
-		2F3CD0400F77E33D00DC189F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		2F3CD0550F77F74600DC189F /* bar_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar_select.png; path = "UI Parts/bar_select.png"; sourceTree = "<group>"; };
-		2F3CD0560F77F74600DC189F /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crosshair.png; path = "UI Parts/crosshair.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPicker_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E778FCA11210B9B200646460 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
-		E778FCA21210B9B200646460 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
-		E778FCA41210B9D400646460 /* UIColor-HSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-HSVAdditions.m"; sourceTree = "<group>"; };
-		E778FCA51210B9D400646460 /* UIColor-HSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-HSVAdditions.h"; sourceTree = "<group>"; };
-		E778FD0E1210C2BB00646460 /* StandinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandinViewController.h; path = ../StandinViewController.h; sourceTree = "<group>"; };
-		E778FD0F1210C2BB00646460 /* StandinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandinViewController.m; path = ../StandinViewController.m; sourceTree = "<group>"; };
+		E778FD0E1210C2BB00646460 /* StandinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandinViewController.h; sourceTree = SOURCE_ROOT; };
+		E778FD0F1210C2BB00646460 /* StandinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandinViewController.m; sourceTree = SOURCE_ROOT; };
 		E778FD101210C2BB00646460 /* StandinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandinViewController.xib; sourceTree = "<group>"; };
 		E7B58A491622318F00967966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E7B58A4B162232B900967966 /* bar_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar_select@2x.png"; path = "UI Parts/bar_select@2x.png"; sourceTree = "<group>"; };
-		E7B58A4C162232B900967966 /* crosshair@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "crosshair@2x.png"; path = "UI Parts/crosshair@2x.png"; sourceTree = "<group>"; };
-		E7C63BAE12399E6900297964 /* ColorSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSwatchView.h; sourceTree = "<group>"; };
-		E7C63BAF12399E6900297964 /* ColorSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSwatchView.m; sourceTree = "<group>"; };
-		E7C63C0C1239A65200297964 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7C63C0C1239A65200297964 /* QuartzCore.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA7E26C82AE541BD964EAC00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +53,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				E7C63C0D1239A65200297964 /* QuartzCore.framework in Frameworks */,
+				C4EBFE48CAD0433CB9E40C07 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,20 +63,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E7C63BAE12399E6900297964 /* ColorSwatchView.h */,
-				E7C63BAF12399E6900297964 /* ColorSwatchView.m */,
 				E778FD0E1210C2BB00646460 /* StandinViewController.h */,
 				E778FD0F1210C2BB00646460 /* StandinViewController.m */,
-				E778FCA81210BA9A00646460 /* UIColor Extensions */,
-				2F2683240F77B0960041B7A6 /* ColorPickerView.h */,
-				2F2683250F77B0960041B7A6 /* ColorPickerView.m */,
 				1D3623240D0F684500981E51 /* ColorPickerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* ColorPickerViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */,
-				2F2683140F77AFB30041B7A6 /* GradientView.h */,
-				2F2683150F77AFB30041B7A6 /* GradientView.m */,
-				2F3CD0400F77E33D00DC189F /* Constants.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -119,12 +82,12 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				E7B58A491622318F00967966 /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				0782B16AC55C467EB0A32D07 /* Pods.xcconfig */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -141,14 +104,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E7B58A4B162232B900967966 /* bar_select@2x.png */,
-				E7B58A4C162232B900967966 /* crosshair@2x.png */,
+				E7B58A491622318F00967966 /* Default-568h@2x.png */,
 				2F36D5490F83A74800D10271 /* Default.png */,
 				2F36D54A0F83A74800D10271 /* Icon.png */,
-				2F3CD0550F77F74600DC189F /* bar_select.png */,
-				2F3CD0560F77F74600DC189F /* crosshair.png */,
-				2F3CCFE80F77CFDB00DC189F /* colormap.png */,
-				2899E5210DE3E06400AC0155 /* ColorPickerViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				E778FD101210C2BB00646460 /* StandinViewController.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -163,19 +121,9 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				FA7E26C82AE541BD964EAC00 /* libPods.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E778FCA81210BA9A00646460 /* UIColor Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E778FCA41210B9D400646460 /* UIColor-HSVAdditions.m */,
-				E778FCA51210B9D400646460 /* UIColor-HSVAdditions.h */,
-				E778FCA11210B9B200646460 /* UIColor-Expanded.h */,
-				E778FCA21210B9B200646460 /* UIColor-Expanded.m */,
-			);
-			name = "UIColor Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +136,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				FFE1D9311D95457ABB933323 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,35 +177,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				2899E5220DE3E06400AC0155 /* ColorPickerViewController.xib in Resources */,
-				2F3CCFEA0F77CFDB00DC189F /* colormap.png in Resources */,
-				2F3CD0570F77F74600DC189F /* bar_select.png in Resources */,
-				2F3CD0580F77F74600DC189F /* crosshair.png in Resources */,
 				2F36D54B0F83A74800D10271 /* Default.png in Resources */,
 				2F36D54C0F83A74800D10271 /* Icon.png in Resources */,
 				E778FD121210C2BB00646460 /* StandinViewController.xib in Resources */,
 				E7B58A4A1622318F00967966 /* Default-568h@2x.png in Resources */,
-				E7B58A4D162232B900967966 /* bar_select@2x.png in Resources */,
-				E7B58A4E162232B900967966 /* crosshair@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFE1D9311D95457ABB933323 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B58A5F162270D500967966 /* ColorPickerAppDelegate.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* ColorPickerAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* ColorPickerViewController.m in Sources */,
-				2F2683160F77AFB30041B7A6 /* GradientView.m in Sources */,
-				2F2683260F77B0960041B7A6 /* ColorPickerView.m in Sources */,
-				E778FCA31210B9B200646460 /* UIColor-Expanded.m in Sources */,
-				E778FCA61210B9D400646460 /* UIColor-HSVAdditions.m in Sources */,
 				E778FD111210C2BB00646460 /* StandinViewController.m in Sources */,
-				E7C63BB012399E6900297964 /* ColorSwatchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +219,9 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0782B16AC55C467EB0A32D07 /* Pods.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -280,8 +235,9 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0782B16AC55C467EB0A32D07 /* Pods.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ColorPicker_Prefix.pch;
@@ -306,8 +262,9 @@
 		};
 		2F3662C00F841985006A638F /* Distribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0782B16AC55C467EB0A32D07 /* Pods.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ColorPicker_Prefix.pch;

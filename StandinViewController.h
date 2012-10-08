@@ -28,9 +28,7 @@
 //    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import <UIKit/UIKit.h>
-#import "ColorPickerViewController.h"
-
-
+#import <ColorPickerViewController.h>
 
 @interface StandinViewController : UIViewController <ColorPickerViewControllerDelegate> {
     IBOutlet UIView *colorSwatch;
