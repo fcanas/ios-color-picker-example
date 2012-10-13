@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "HUE.app"
-               BlueprintName = "ColorPicker"
-               ReferencedContainer = "container:ColorPicker.xcodeproj">
+               BlueprintIdentifier = "E7B58BCC162A187900967966"
+               BuildableName = "Color Picker.app"
+               BlueprintName = "Color Picker"
+               ReferencedContainer = "container:Color Picker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "HUE.app"
-            BlueprintName = "ColorPicker"
-            ReferencedContainer = "container:ColorPicker.xcodeproj">
+            BlueprintIdentifier = "E7B58BCC162A187900967966"
+            BuildableName = "Color Picker.app"
+            BlueprintName = "Color Picker"
+            ReferencedContainer = "container:Color Picker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "HUE.app"
-            BlueprintName = "ColorPicker"
-            ReferencedContainer = "container:ColorPicker.xcodeproj">
+            BlueprintIdentifier = "E7B58BCC162A187900967966"
+            BuildableName = "Color Picker.app"
+            BlueprintName = "Color Picker"
+            ReferencedContainer = "container:Color Picker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "HUE.app"
-            BlueprintName = "ColorPicker"
-            ReferencedContainer = "container:ColorPicker.xcodeproj">
+            BlueprintIdentifier = "E7B58BCC162A187900967966"
+            BuildableName = "Color Picker.app"
+            BlueprintName = "Color Picker"
+            ReferencedContainer = "container:Color Picker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

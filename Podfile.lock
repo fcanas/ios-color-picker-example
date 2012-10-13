@@ -1,16 +1,14 @@
 
-EXTERNAL SOURCES: 
-  ios-color-picker: 
-    :tag: 0.0.3
-    :git: https://github.com/fcanas/ios-color-picker.git
-
-COCOAPODS: 0.14.0
+SPEC CHECKSUMS: 
+  UIColor-Utilities: 4f11f7e81279a041471b4f9acd850059b6bb9309
+  iOS-Color-Picker: b02317570d861c467da31e1f7c8ced209b8f35c8
 
 PODS: 
-- ios-color-picker (0.0.3)
+- UIColor-Utilities (1.0)
+- iOS-Color-Picker (0.0.6): 
+  - UIColor-Utilities (~> 1.0)
 
 DEPENDENCIES: 
-- ios-color-picker (from `https://github.com/fcanas/ios-color-picker.git', tag `0.0.3')
+- iOS-Color-Picker (~> 0.0.6)
 
-SPEC CHECKSUMS: 
-  ios-color-picker: 05ade782daac2498122eeeeb47ecdd43889945f8
+COCOAPODS: 0.14.0
