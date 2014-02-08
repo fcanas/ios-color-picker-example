@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <FCColorPickerViewController.h>
 
-@interface FCViewController : UIViewController <ColorPickerViewControllerDelegate>
+@interface FCViewController : UIViewController <FCColorPickerViewControllerDelegate>
 
 -(IBAction)chooseColor:(id)sender;
 
