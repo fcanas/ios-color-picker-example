@@ -15,10 +15,8 @@
 @implementation FCViewController
 
 -(IBAction)chooseColor:(id)sender {
-    FCColorPickerViewController *colorPicker = [FCColorPickerViewController colorPicker];
-    colorPicker.color = self.view.backgroundColor;
-    colorPicker.delegate = self;
-    
+    FCColorPickerViewController *colorPicker = [FCColorPickerViewController colorPickerWithColor:self.view.backgroundColor
+                                                                                        delegate:self];
     [colorPicker setModalPresentationStyle:UIModalPresentationFormSheet];
     [self presentViewController:colorPicker animated:YES completion:nil];
 }
